@@ -1,0 +1,46 @@
+@keyframes disappear{
+    from{opacity: 0;}
+    to{opacity:1;}
+}
+
+@keyframes disappear1{
+    from{opacity: 0;}
+    to{opacity: 2;}
+
+}
+
+@keyframes disappear2{
+    from{opacity: 0;}
+    to{opacity:5;}
+
+}
+
+.learn{
+    animation-name: disappear;
+    animation-duration: 4s;
+    font-size: 50px;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.teach{
+    animation-name: disappear1;
+    animation-duration: 4s;
+    font-size: 50px;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+
+.grow{
+    animation-name: disappear2;
+    animation-duration: 4s;
+    font-size: 50px;
+    animation-delay: 11s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
